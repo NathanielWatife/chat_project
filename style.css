@@ -1,0 +1,151 @@
+body {
+    background-color: #ffa500;
+    margin: auto;
+}
+
+/* navigator */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+.navbar ul{
+    padding-top: 10px;
+}
+.navbar li{
+    display: inline;
+}
+.navbar a{
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffa500;
+    border: 2px solid #ffa500;
+}
+.navbar a:hover{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #ffa500;
+    color: #fff;
+}
+
+/* Register & Login style for form */
+.form {
+    background-color: #fff;
+    color: #000;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    width: 500px;
+}
+.label {
+    font-size: 15px;
+    color: #ffa500;
+}
+.input {
+    border-radius: 8px;
+    width: 400px;
+    height: 30px;
+}
+.btn {
+    background-color: #ffa500;
+    color: #fff;
+    height: 30px;
+    width: 100px;
+    border: unset;
+    border-radius: 3px;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #ffa500;
+    font-size: 20px;
+}
+/* button for both the register and login at the side of the h2 */
+.btn-log {
+    background-color: #ffa500;
+    margin-top: -85px;
+    float: right;
+    border: unset;
+    border-radius: 5px;
+}
+.btn-log a{
+    background-color: #ffa500;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn-log a:hover{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* index page */
+.index-container {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    color: #fff;
+}
+
+
+
+/* Home page */
+.home-container {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    color: #fff;
+}
+.home-container a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #ffa500;
+    padding: 8px;
+    font-size: 15px;
+    border: unset;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.home-container a:hover{
+    background-color: #ffa500;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* Chatpage */
+.display-chat {
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 570px;
+    height: 300px;
+    border-radius: 8px;
+    overflow: scroll;
+}
+.message {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+    color: #fff;
+    background-color: yellowgreen;
+}
+.textarea {
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+}
